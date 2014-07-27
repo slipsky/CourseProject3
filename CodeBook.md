@@ -3,25 +3,41 @@ Coursera - Getting and Cleaning Data Final Project
 CodeBook
 ========================================================
 Activity
+
   Factor	6 Levels
+  
   The type of Activity attributed with the observations.
-  The 6 options are LAYING, SITTING, STANDING, WALKING, 
-    WALKING_UPSTAIRS, and WALKING_DOWNSTAIRS
+  
+  The 6 options are LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, and WALKING_DOWNSTAIRS
 
 Subject
+
   int
+  
   The subject ID associated with the observation.  There are 30 total subjects.
 
 TimeBodyAccelerationMeanValueXaxis
-num
-Average of the Time values in this field, grouped by Activity and Subject
 
-TimeBodyAccelerationMeanValueYaxis
   num
+
+  Units: Time
+
   Average of the Time values in this field, grouped by Activity and Subject
 
-TimeBodyAccelerationMeanValueZaxis
+
+TimeBodyAccelerationMeanValueYaxis
+
   num
+  
+  Units: Time
+  
+  Average of the Time values in this field, grouped by Activity and Subject
+
+
+TimeBodyAccelerationMeanValueZaxis
+
+  num
+  
   Average of the Time values in this field, grouped by Activity and Subject
 
 TimeBodyAccelerationStdDevXaxis
