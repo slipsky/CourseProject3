@@ -13,8 +13,8 @@ Subject
   The subject ID associated with the observation.  There are 30 total subjects.
 
 TimeBodyAccelerationMeanValueXaxis
-  num
-  Average of the Time values in this field, grouped by Activity and Subject
+num
+Average of the Time values in this field, grouped by Activity and Subject
 
 TimeBodyAccelerationMeanValueYaxis
   num
