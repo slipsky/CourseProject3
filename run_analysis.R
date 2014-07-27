@@ -67,7 +67,8 @@ names(FullData4)<-sub("Mag","Magnitude",names(FullData4))
 library(plyr)
 
 ##Provide the MEAN for each numerical column, grouped by Activity and Subject
-Avgs<-ddply(FullData5,c("Activity","Subject"),numcolwise(mean))
+Avgs<-ddply(FullData4,c("Activity","Subject"),numcolwise(mean))
 
 ####ANSWER TO QUESTION 5:
-write.csv(Avgs, file = "Answer5.csv")
+##write.csv(Avgs, file = "Answer5.csv") - will not work on coursera uploads
+write.table(Avgs,file="TidyData.txt",sep=",",col.names=TRUE,row.names=FALSE)
