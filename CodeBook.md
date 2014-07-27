@@ -4,11 +4,11 @@ CodeBook
 ========================================================
 Activity
 
-  Factor	6 Levels
+    Factor	6 Levels
   
-  The type of Activity attributed with the observations.
+    The type of Activity attributed with the observations.
   
-  The 6 options are LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, and WALKING_DOWNSTAIRS
+    The 6 options are LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, and WALKING_DOWNSTAIRS
 
 Subject
 
