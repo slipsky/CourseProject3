@@ -54,3 +54,5 @@ Here is a step-by-step process of the script:
 18) Use ddplyr to perform averages over all numerical columns, grouped by Activity and Subject.
 
 19) Write this final, tidy data set to a .csv file. (Update: must write to .txt because of Coursera site limitation.)
+
+20) To properly view the file, open in a standard spreadsheet program (like Excel) with commas used as a delimiter.
