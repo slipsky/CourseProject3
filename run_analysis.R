@@ -72,3 +72,5 @@ Avgs<-ddply(FullData4,c("Activity","Subject"),numcolwise(mean))
 ####ANSWER TO QUESTION 5:
 ##write.csv(Avgs, file = "Answer5.csv") - will not work on coursera uploads
 write.table(Avgs,file="TidyData.txt",sep=",",col.names=TRUE,row.names=FALSE)
+
+##To properly view the file, open in a standard spreadsheet program (like Excel) with commas used as a delimiter.
